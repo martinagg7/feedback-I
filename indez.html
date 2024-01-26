@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback I</title>
+    <style>
+        html,body,table,tr,td,img,input,form{
+            margin:0;padding:0;border:0;border-spacing:0;
+        }
+        table{
+            width: 600px;margin: 0 auto;
+        }
+        td{
+            text-align: center;color:#fff;font-family: 'Poppins', sans-serif
+        }
+        body{
+            background-color: #414AAB;
+        }
+        .espacio_sup{
+            height: 30px;
+        }
+        .espacio_tabla{
+            height:32px;
+        }
+        .boton_tabla{
+            background-color: #ffffff;border:none;border-radius:4px;font-family: 'Poppins', sans-serif;; text-align: center; font-size: 14px; width: 160px; height: 52px;margin-top: 36px;margin-bottom: 36px; cursor: pointer;
+        }
+        .titulo_cuadros_mini{
+            height: 32px;line-height: 32px;text-align: center;font-family: 'Poppins', sans-serif;font-weight: bold;color: #ffffff;font-size: 22px;
+        }
+        .linea1{
+            height: 24px;line-height: 24px;text-align: center;font-family: 'Poppins', sans-serif;color: #ffffff;font-size: 14px;
+        }
+        .linea2{
+            height: 24px;line-height: 24px;text-align: center;font-family: 'Poppins', sans-serif;color: #ffffff;font-size: 14px;
+        }
+        .info_hostby{
+            text-align:center;height: 24px;line-height: 24px;font-family: 'Poppins', sans-serif;color: #ffffff;font-size:14px;
+        }
+        .linea_ticket{
+            font-family: 'Poppins', sans-serif;color: #ffffff;
+        }
+        .campo_formulario{
+            height: 62px;width: 371px;border-radius: 4px;font-size: 16px;margin-bottom: 32px
+        }
+        .redes_sociales{
+            height: 36px;width: 36px
+        }
+        #boton_registrar{
+            height: 52px;width: 145px;font-size: 14px;font-family: 'Poppins', sans-serif;color: black;border-radius: 4px;border: none ;font-weight: bolder;margin-bottom: 58px
+        }
+        .link{
+            color: #ffffff;font-family: 'Poppins', sans-serif;text-decoration: none;line-height: 24px
+        }
+        .info_final{
+            height: 22px;text-align: center;font-family: 'Poppins', sans-serif;font-size: 12px;color: #ffffff
+        }
+    </style>
+
+    <!--importar letras de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <!--IMAGEN 2023-->
+        <table style=" height:376px;"><!--las dimensiones de la tabla deben ser 600x376-->
+            <tbody>
+            <tr>
+                <td>
+                    <img src="img/2023.png" style="height: 100%;width:100%;">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--ESPACIO-->
+        <table style="height: 50px;"><!-- dimensiones 600x50 debajo de la imagen-->
+            <tbody>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--IMAGEN MERRY CHRISTMAS-->
+        <table style="height: 130px"><!--imagen 140x70 por lo tanto dejaremos unos espacios superior e inferior de una altura de 30-->
+            <tbody>
+            <tr>
+                <td>
+                    <img src="img/logonavidad.png" style="height: 70px;width:140px;margin-top: 30px;margin-bottom: 30px;">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <!--TABLA CON TEXTO--->
+        <table style="height: 184px">
+                <tbody>
+                    <tr>
+                        <td height="25px"></td><!--espacio superior-->
+                    </tr>
+                    <tr>
+                        <td style="height: 32px;width: 331px;font-size: 22px; font-weight: bold;line-height: 32px;">
+                            Join Us For A Christmas Party
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="30px"></td><!--espacio entre lineas-->
+                    </tr>
+                    <tr>
+                        <td style="height: 24px ;font-size: 14px;">
+                            Wishing you and your family all the best things and timeless
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 24px ;font-size: 14px;">
+                            treasures on this lovely holiday! Share your endless love and
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 24px ;font-size: 14px;">
+                            kindness with your nearest and dearest.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25px"></td><!--espacio inferior-->
+                    </tr>
+                </tbody>
+        </table>
+
+        <!--CUADRO AMARILLO-->
+        <!--espacio superior 30px-->
+        <table class="espacio_sup">
+            <tbody>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Cuadro amarillo principal 322px(32px espacio /258px contenido/32px espacio -->
+        <table style="height: 322px;background-color:#FFB726;">
+            <tbody>
+            <tr><!--espacio-->
+                <td class="espacio_tabla">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%;height: 258px"><!--tabla para organizar el contenido que está dentro del cuadro-->
+                        <tbody>
+                        <tr><!--lo de añadir el line-height lo hacemos porque sino al aplicar la letra poppins se me cambiaba la altura del texto-->
+                            <td style="height: 68px;font-size: 58px;font-weight:bold;line-height: 68px;">
+                                $100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height:38px;font-size: 28px;line-height: 38px;">
+                                Single Ticket
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 24px;font-size: 14px;line-height: 24px;">
+                                FREE FOOD AND DRINKS
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: middle;height: 128px;"> <!-- Se ajusta el padding para añadir espacio arriba y abajo -->
+                                <button class="boton_tabla">BOOK NOW</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr><!--espacio-->
+                <td class="espacio_tabla">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--espacio  inferior 30px-->
+        <table class="espacio_sup">
+            <tbody>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--CUADRO ROSA-->
+        <!--espacio superior 30px-->
+        <table class="espacio_sup">
+            <tbody>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Cuadro rosa principal 322px(32px espacio /258px contenido/32px espacio -->
+        <table style="height: 322px;background-color:#FF5C98;">
+            <tbody>
+            <tr><!--espacio-->
+                <td class="espacio_tabla">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%;height: 258px"><!--tabla para organizar el contenido que está dentro del cuadro-->
+                        <tbody>
+                        <tr><!--lo de añadir el line-height lo hacemos porque sino al aplicar la letra poppins se me cambiaba la altura del texto-->
+                            <td style="height: 68px;font-size: 58px;font-weight:bold;line-height: 68px;">
+                                $100
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height:38px;font-size: 28px;line-height: 38px;">
+                                Single Ticket
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 24px;font-size: 14px;line-height: 24px;">
+                                FREE FOOD AND DRINKS
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: middle;height: 128px;"> <!-- Se ajusta el padding para añadir espacio arriba y abajo -->
+                                <button class="boton_tabla">BOOK NOW</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr><!--espacio-->
+                <td class="espacio_tabla">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--espacio  inferior 30px-->
+        <table class="espacio_sup">
+            <tbody>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--ESPACIO SEPARACIÓN-->
+        <table style="height: 20px;">
+            <tbody>
+            <tr>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--IMAGEN -->
+        <table style="height: 85px">
+            <tbody>
+            <tr style="text-align: center">
+                <td><!---imagen-->
+                    <img src="img/border.png" style="height: 40px;width:240px;margin-top: 22.5px;margin-bottom: 22.5px ">
+                </td>
+            </tr><!--espacio inferior-->
+            </tbody>
+        </table>
+
+        <!--PEQUEÑO ESPACIO DE SEPARACION 600x15-->
+        <table style="height: 15px;">
+            <tbody>
+            <tr>
+                <td style="height: 15px;line-height: 15px">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--VENUE-->
+        <table style="height: 120px;">
+            <tbody>
+            <tr><!--espacio blanco superior-->
+                <td height="10px"></td>
+            </tr>
+            <tr><!--Venue-->
+                <td class="titulo_cuadros_mini" >Venue</td>
+            </tr>
+            <tr>
+                <td style="height: 20px"></td>
+            </tr>
+            <tr><!--direccion-->
+                <td class="linea1">153 THE LIGHTHOUSE, CUSTARD </td>
+            </tr>
+            <tr>
+                <td class="linea2">FACTORY,NEW YORK,NY 000123, USA.</td>
+            </tr>
+
+            <tr>
+                <td height="10px"></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--PEQUEÑO ESPACIO DE SEPARACION 600x20-->
+        <table style="height: 20px;">
+            <tbody>
+            <tr>
+                <td style=";height: 20px;">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--DATE AND TIME-->
+        <!--guarda exactamente las mismas proporciones que venue-->
+        <table style="height: 120px;width: 600px;margin: 0 auto">
+            <tbody>
+            <tr><!--espacio blanco superior-->
+                <td height="10px"></td>
+            </tr>
+            <tr><!--date and time-->
+                <td class="titulo_cuadros_mini">Date and Time</td>
+            </tr>
+            <tr>
+                <td style="height: 20px"></td>
+            </tr>
+            <tr><!---info-->
+                <td class="linea1">FRIDAY, 25 TH DECEMBER, 2023 </td>
+            </tr>
+            <tr>
+                <td  class="linea2">AT 6 PM IN THE EVENING</td>
+            </tr>
+
+            <tr>
+                <td height="10px"></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--PEQUEÑO ESPACIO DE SEPARACION 600x20-->
+        <table style="height: 20px;">
+            <tbody>
+            <tr>
+                <td style="height: 20px;">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--HOST BY-->
+        <table style="height: 144px;">
+            <tbody>
+            <tr><!--a veces no pongo el espacio en blanco de nbsp porque se me desajustan las alturas y para ser hacer lo + preciso posible el cuadro lo hago asi-->
+                <td height=" 10px"></td>
+            </tr>
+            <tr>
+                <td class="titulo_cuadros_mini">Host By</td>
+            </tr>
+            <tr>
+                <td height="20px"></td>
+            </tr>
+            <tr>
+                <td class="info_hostby">HOSTED BY TEAM MAOOL</td>
+            </tr>
+            <tr>
+                <td height="24px">
+                    <a class="info_hostby" href="tel:44012345678907890" style="line-height: 24px;text-decoration: none">+44 (0) 123 45678907890</a>
+                </td>
+            </tr>
+            <tr>
+                <td height="24px">
+                    <a class="info_hostby" href="mailto:info@domain.com " style="line-height: 24px;text-decoration: none">info@domain.com</a>
+                </td>
+            </tr>
+                <td height="10px"></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--IMAGEN -->
+        <table style="height: 100px">
+            <tbody>
+            <tr>
+                <td>
+                    <img src="img/border2.png" style="height: 40px;width:240px;margin-top: 30px;margin-bottom: 30px;">
+                </td>
+            </tr><!--espacio inferior-->
+            </tbody>
+        </table>
+
+
+        <!--PEQUEÑO ESPACIO DE SEPARACION 600x30-->
+        <table style="height: 30px;">
+            <tbody>
+            <tr>
+                <td style="height: 30px;">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!--FORMULARIO-->
+        <table style="height: 477px;"><!--tabla GRANDE-->
+            <tbody>
+                <tr>
+                    <td>
+                        <table style="height: 166px;"><!--tabla para el texto-->
+                            <tr>
+                                <td style="height: 32px"></td><!--espacio-->
+                            </tr>
+                            <tr><!--texto-->
+                                <td class="linea_ticket" style="height: 32px;line-height: 32px;width: 409px;font-size: 22px;font-weight: bold;">
+                                    Want to enter into a raffle of a ticket
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px"></td><!--espacio-->
+                            </tr>
+                            <tr><!--texto-->
+                                <td  class="linea_ticket" style="height: 24px;line-height:24px;font-size: 14px;">
+                                    Enter your information here and you will have a chance to get
+                                </td>
+                            </tr>
+                            <tr><!--texto-->
+                                <td  class="linea_ticket" style="height: 24px;line-height:24px;text-align: center;font-size: 14px;">
+                                    a ticket for free to go to our party. Share this with as many
+                                </td>
+                            </tr>
+                            <tr><!--texto-->
+                                <td  class="linea_ticket" style="height: 24px;line-height:24px;font-size: 14px;>
+                                    people as possible
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=" height="10px"></td><!--espacio-->
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table style="height: 311px"><!--tabla para formulario-->
+                            <tbody>
+                                <tr><!--espacio-->
+                                    <td height="13px"></td>
+                                </tr>
+                                <tr><!--formulario-->
+                                    <td height="298px">
+                                        <form  action="url.ejemplo.com" method="post" style="height: 298px">
+                                            <label for="nombre"></label>
+                                            <input class="campo_formulario" id="nombre" placeholder="Name" name="nombre_usario" ><!--input para nombre--->
+                                            <br>
+                                            <label for="email"></label>
+                                            <input  class="campo_formulario" id="email" placeholder="Email" name="email_usario" ><!--input para email-->
+                                            <br>
+                                            <button id="boton_registrar" type="submit">REGISTER</button>
+                                        </form>
+                                    </td>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <!--FINAL-->
+        <table style="height: 332px;">
+            <tbody>
+            <tr><!--espacio superior-->
+                <td height="30px"></td>
+            </tr>
+            <tr><!--linea de emojis,si pulsas sobre ellos te llevan a la página de inicio de cada red social-->
+                <td style="height: 36px;width:251px">
+                    <a href="https://facebook.com"><!--si pulsamos sobre cada emoticono nos lleva a la propia página-->
+                        <img class="redes_sociales" src="img/facebook.png">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="redes_sociales"  src="img/twitter.png" >
+                    </a>
+                    <a href="https://instagram.com">
+                        <img class="redes_sociales" src="img/instagram.png">
+                    </a>
+                    <a href="https://snapchat.com">
+                        <img class="redes_sociales" src="img/snap.png" >
+                    </a>
+                    <a href="https://pinterest.com">
+                        <img  class="redes_sociales" src="img/pinterest.png">
+                    </a>
+                    <a href="https://youtube.com">
+                        <img  class="redes_sociales" src="img/youtube.png">
+                    </a>
+                </td>
+            </tr>
+            <tr><!--linea fui incapaz de darle un color-->
+                <td ><hr width="75%"></td>
+            </tr>
+            <tr><!--espacio-->
+                <td height="30px"></td>
+            </tr>
+            <tr><!--linea de info-->
+                <td height="24px">
+                    <table style="width: 600px; margin: 0 auto;">
+                        <tbody>
+                        <tr>
+                            <td style="padding-left: 20px;">
+                                <a class="link"href="url_my_accound">MY ACCOUNT</a>
+                            </td>
+                            <td style="padding-left: 20px;">
+                                <a class="link" href="url_service">YOUR SERVICE</a>
+                            </td>
+                            <td style="padding-left: 20px;;">
+                                <a class="link" href="url_carrers">CAREERS</a>
+                            </td>
+                            <td style="padding-left: 20px;">
+                                <a class="link" href="url_privacy">PRIVACY POLICY</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+            </tr>
+            <tr><!--espacio-->
+                <td height="30px"></td>
+            </tr>
+            <tr> <!--texto-->
+                <td class="info_final">
+                    ©2023 Christmas, Inc. The brand names, slogans, logos, other trademarks
+                </td>
+            </tr>
+            <tr> <!--texto-->
+                <td class="info_final">
+                    of FridaySale's goods, promotions belong exclusively to FridaySale Inc
+                </td>
+            </tr>
+            <tr><!--espacio-->
+                <td height="10px"></td>
+            </tr>
+            <tr><!--texto-->
+                <td class="info_final" style="text-decoration: underline">Unsuscribe</td>
+            </tr>
+            <tr><!--espacio-->
+                <td height="76px"></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <!--IMAGEN FONDO-->
+        <table style="height: 190px ">
+            <tbody>
+            <tr>
+                <td>
+                    <img src="img/manos.png" style="display: block;margin-left: auto;margin-right: auto">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </footer>
+</body>
+</html>
